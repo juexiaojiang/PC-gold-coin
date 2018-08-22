@@ -9,17 +9,6 @@ var seckillScript = {
 	initFun: function() {
 		this.popMethods();
 		this.agree_to_state();
-		this.change_rule();
-	},
-	change_rule:function(){
-		$('.exchange_rule').click(function() {
-			$('.pop_box_exchange_rule').show();
-			$('.mask_tcdiv_4').show();
-		});
-		$('.close_4').on('click', function() {
-				$('.pop_box_exchange_rule').hide();
-				$('.mask_tcdiv_4').hide();
-			});
 	},
 	popMethods:function(){
 		$('.bangding_account').on('click', '.text_3', function() {

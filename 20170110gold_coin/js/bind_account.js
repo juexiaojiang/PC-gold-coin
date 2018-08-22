@@ -7,8 +7,6 @@ var jdouVertification = {
         this.timeChange();
         this.displayNone();
         // this.change_status();
-        this.checkError();
-        this.layer();
     },
     //改变60s弹窗的样式
     changeStyle: function() {
@@ -161,15 +159,6 @@ var jdouVertification = {
         });
          
     },
-
-    //设置验证码错误的框
-    checkError:function(){
-      $(".request_input").blur(function(){
-             $(".checkError").show();
-             $(".second").addClass(" show_input");
-      });
-
-    },
     //设置display的值不为none
      displayNone:function(){
      	$("#num").click(function(){
@@ -179,12 +168,7 @@ var jdouVertification = {
                   // $(".work").attr('disabled','true');
      	});
      	
-     },
-     //修改罩层
-    layer:function(){
-        var hei=Math.max(document.body.scrollHeight,document.documentElement.scrollHeight); 
-           $('.popup_mask').css('height',hei);
-    }
+     }
 
 
 };
