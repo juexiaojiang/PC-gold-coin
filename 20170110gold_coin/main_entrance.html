@@ -9,6 +9,10 @@
 
 </head>
 <body class="">
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+
+ <script type="text/javascript" src="js/modify_icon.js"></script>
+
 	<script>
     var isNarrowscreen = screen.width;
     if(isNarrowscreen < 1228){
@@ -29,28 +33,47 @@
     });
 </script>
    <!-- 一号金币 -->
-	<div class="hd_header_wrap"></div>
+	<div class="hd_header_wrap1"></div>
 	<div class="mpc_cont">
 		<div class="wrap clearfix">
 			<div class="mpc_cont_sideNav"></div>
 			<div class="mpc_cont_main">
 				<div class="gold_coin">
 					<div class="gold_coin_title clearfix">
-						<h3>1号金币</h3>
+						<h3 id="one_count">1号金币</h3>
 						<a href="http://cms.yhd.com/cms/view.do?topicId=18" class="blue_link">金币规则</a>
 					</div>
 					<div class="gold_coin_info clearfix">
 						<div class="able_use clearfix">
 							<span>可用1号金币</span>
-							<span class="num">8</span>
-							<a href="//coin.yhd.com" target="_blank" class="user_account_links addlink_top">
+							<div class="bignum">
+								<span class="num num_first" >8</span>
+							</div>
+							<div class="change_btn">
+								<div class="change_con">
+									<a href="//coin.yhd.com" target="_blank" class="user_links addlink_top ">
 								金币商城
-								<i class="icon iconfont icon-arrow-right"></i>
+								<i class="icon coin-iconfont icon-arrow-right"></i>
 							</a>
-							<a href="gold_coin_new.html" class="addlinks">
+							<a href="gold_coin_new.html" class="user_links addlinks">
 								金币兑换京豆
-								<i class="icon iconfont icon-arrow-right"></i>
+								<i class="icon coin-iconfont icon-arrow-right"></i>
 							</a> 
+								</div>
+
+								
+							
+							</div>
+							 
+							<div class="change_btn_v">
+								<a href="//coin.yhd.com" target="_blank" class="user_links addlink_top mood_change">
+								金币商城
+								<i class="icon coin-iconfont icon-arrow-right"></i>
+							     </a>
+							</div>
+							 
+
+							
 						</div>
 						<div class="unable_use">
 							<span>2018-12-31 过期1号金币</span>
@@ -93,6 +116,5 @@
 		</div>
 
 	</div>
-	
 </body>
 </html>

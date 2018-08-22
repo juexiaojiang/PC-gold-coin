@@ -234,6 +234,9 @@ body{
 	color: #999;
 	font-size: 12px;
 }
+.exchange_record:hover{
+	color: #666;
+}
 .inner_wrap_down{
 	width: 538px;
 	height: 157px;
@@ -615,4 +618,90 @@ a.close_2:hover{
 	z-index: 600;
 	background-color: rgba(0,0,0,.6);
 	display: none;
+}
+/*弹窗4--兑换规则*/
+.exchange_rule_wrap{
+	position: absolute;
+	display: block;
+	top:50%;
+	left: 50%;
+}
+.pop_box_exchange_rule{
+	position: absolute;
+	width: 710px;
+	height: 580px;
+	z-index: 1101;
+	display: block;
+	border: 5px solid #c8c8c8;
+	border-radius: 2px;
+	display:block;
+	left:-355px;
+	top:-290px;
+	background-color: #fff;
+}
+.state_inner_wrap{
+	display: block;
+	width: 635px;
+	height: 542px;
+	margin: 23px 46px 15px 29px;
+}
+.state_inner_wrap:before{
+	content: '';
+	display: table;
+}
+.state_inner_wrap .pop_exchange_rule_title{
+	display: block;
+	margin: 24px auto 0 auto;
+	text-align: center;
+	height: 18px;
+	line-height: 18px;
+}
+.pop_exchange_rule_title span{
+	font-size: 18px;
+	color: #212121;
+
+}
+.pop_exchange_rule_con{
+	margin: 26px 13px 0px 24px;
+	width: 600px;
+	height: 357px;
+	overflow-y: scroll;
+	
+}
+.pop_exchange_rule_con p{
+	font-size: 12px;
+	color: #666;
+	line-height: 24px;
+
+}
+.pop_exchange_rule_con p:child(1){
+	font-size: 12px;
+	color: #666;
+	line-height: 17px;
+
+}
+.close_4{
+	display: block;
+	float: right;
+	width: 18px;
+	height: 20px;
+	color: #979797;
+	padding: 10px;
+}
+.close_4:hover{
+	color: rgb(85,85,85);
+}
+.none{
+	display: none;
+}
+.mask_tcdiv_4{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 600;
+	background-color: rgba(0,0,0,.6);
 }

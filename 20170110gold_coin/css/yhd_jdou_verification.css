@@ -1,10 +1,11 @@
-.hd_header_wrap {
+.hd_header_wrap1 {
 	width:100%;
 	height:181px;
 	border-bottom: 2px solid #ff4040;
 	/*background-color:#e5e5e5;*/
 
 }
+ 
 a:hover{
     color:#999999;
 }
@@ -25,12 +26,110 @@ a:hover{
 	display:flex;
 	justify-content: center;
 	align-items:center;
+   flex-direction: column;
 	 
 }
-.content_pic .content_yhd_jd img{
-	width:195px;
-	height: 58.5px;
+.content_pic .text_pic   {
+   margin-top:16px;
+   color:#333;
+   font-size:14px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.content_pic .text_pic .happy {
+   /* margin-left: 14px;*/
+    margin-right: 71px;
+    width:60px;
+    float:left;
+     text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+   text-align:center;
+}
+.content_pic .text_pic .sleep {
+    width:60px;
+     text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+    float:left;
+    text-align:center;
+
+}
+.content_pic .content_yhd_jd_i {
+    
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.content_pic .content_yhd_jd_i .yhd {
+   color:#fff;
+   font-size:11px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.content_pic .content_yhd_jd_i .jd {
+   color:#fff;
+   font-size:11px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+ 
+.content_pic .content_yhd_jd  {
+	/*width:195px;
+	height: 58.5px;*/
+    display:flex;
 	/*border:1px solid #aaa;*/
+}
+.content_pic .content_yhd_jd .yhd_shops {
+    position:relative;
+     margin-right:23px;
+     overflow:hidden;
+    border-radius:30px;
+}
+.content_pic .content_yhd_jd .yhd_jd_s {
+    position:relative;
+    margin-left:23px;
+    overflow:hidden;
+    border-radius:30px;
+}
+.content_pic .content_yhd_jd .yhd_shops .yhd {
+    width:60px;
+    height: 15px;
+    background:rgba(46,46,46,0.5);
+    color:#fff;
+    font-size:11px;
+}
+.content_pic .content_yhd_jd .yhd_jd_s .jd{
+    width:60px;
+    height: 15px;
+    background:rgba(46,46,46,0.5);
+    color:#fff;
+    font-size:11px;
+}
+.content_pic .content_yhd_jd .shops{
+    width:60px;
+    height: 60px;
+
+   
+}
+.content_pic .content_yhd_jd .tip {
+    width:23px;
+    margin-top:23px;
+}
+.content_pic .content_yhd_jd .jd_s{
+    width:60px;
+    height: 60px;
+    
+}
+.content_pic .content_yhd_jd img {
+    width:100%;
+    height: 100%;
 }
 .content_account {
     margin-top:28px;
@@ -60,9 +159,9 @@ a:hover{
 }
 
  .input_check .input_check_text .input_check_mobile input {
-	padding:18px 67px 18px 17px;
-	width:112px;
-	height: 14px;
+	padding:0px 0px 0px 17px;
+	width:196px;
+	height: 50px;
 	font-family: PingFangSC-Regular;
     font-size: 14px;
     color: #333;
@@ -73,14 +172,15 @@ a:hover{
     /*margin-left: 785px;*/
     margin-left:447px;
     outline:none;
+    box-sizing:border-box;
 
 }
 .content_account .input_check .input_check_text .get_account {
 	margin-left:8px;
 	width:126px;
-	height: 51px;
+	height: 50px;
 	background: #57565F;
-    border: 1px solid #CFCFCF;
+   /* border: 1px solid #CFCFCF;*/
     border-radius: 2px;
     float: left;
     margin-top:17px;
@@ -97,6 +197,7 @@ a:hover{
     color: #FFFFFF;
     line-height: 50px;
     text-align:center;
+    box-sizing:border-box;
 }
 .content_account .input_check .check {
 	width:84px;
@@ -234,11 +335,11 @@ a:hover{
 }
  
 .pop-key-notice-txt .title {
-    width: 327px;
+    
     height: 172px;
     overflow: hidden;
     margin: 0 auto;
-    padding:29px 40px 48px 62px;
+    padding:29px 0px 40px 62px;
     font-family: PingFangSC-Regular;
     /*line-height: 24px;*/
     background: #FFFFFF;
@@ -281,31 +382,45 @@ a:hover{
     margin-top:28px;
 }
  .pop-key-notice-txt .title .input_code .second{
+    width:166px;
     float:left;
     border-radius:2px;
     background: #F9F9F9;
+   border:1px solid #F9F9F9;
  }
+input::-webkit-contacts-auto-fill-button {
+visibility: hidden;
+display: none !important;
+pointer-events: none;
+position: absolute;
+right: 0;
+}
  .pop-key-notice-txt .title .input_code .second input {
     font-family: PingFangSC-Regular;
     font-size: 16px;
     color: #333;
-    padding:14px 52px 14px 13px;
-    width:101px;
-    height: 22px;
+    padding:0px 0px 0px 13px;
+    width:100%;
     border:0 none;
     border-radius:2px;
     background: #F9F9F9;
     outline:none;
-     
+    box-sizing:border-box;
+    height:48px;
+    /*border:1px solid #fff;
+     */
+}
+.pop-key-notice-txt .title .input_code .show_input {
+    border:1px solid #FF5C4D;
 }
  .pop-key-notice-txt .title .input_code .input_pic {
     float:left;
  }
  .pop-key-notice-txt .title .input_code .input_pic img {
     display:block;
-    margin-left:8px;
+    padding-left:8px;
     margin-right:5px;
-    width:101px;
+   /* width:101px;*/
     height: 50px;
  }
  .pop-key-notice-txt .title .input_code .change {
@@ -322,7 +437,10 @@ a:hover{
 
  
  .gift_get_fail .title .check_sure {
-     margin-top:29.3px;
+    /* margin-top:29.3px;*/
+    position:absolute;
+    left:178px;
+    bottom:48px;
  }
 .gift_get_fail .title .sure{
    display:block; 
@@ -635,6 +753,23 @@ a:hover{
 }
 .none{
     display: none;
+}
+/*验证码错误部分增加的内容*/
+.checkError {
+    margin-top:6px;
+    font-family: PingFangSC-Regular;
+   /* font-size: 15px;*/
+    color: #FF5C4D;
+    display: none;
+}
+.checkError .yzm {
+    font-size: 12px;
+    color: #FF5C4D;
+    margin-left:1px;
+    display:inline-block;
+}
+.wrong_coin {
+    font-size:15px;
 }
 
 

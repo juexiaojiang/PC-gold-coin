@@ -1,4 +1,4 @@
-.hd_header_wrap {
+.hd_header_wrap1 {
 	width:100%;
 	height: 181px;
 	border:1px solid #aaa;
@@ -60,17 +60,22 @@
  	float:left;
  	width:50%;
  	border-right:1px solid #ddd;
+ 	position:relative;
  }
+ /*修改的样式*/
  .gold_coin_info .able_use span {
  	float:left;
- 	padding-left:70px;
+ 	padding-left:60px;
  }
+ /*修改的样式*/
  .gold_coin_info .able_use .num {
  	float:left;
- 	padding-left:90px;
+    padding-left:28px;
+    padding-right:28px;
  }
-   .gold_coin_info .able_use .user_account_links.addlink_top {
- 	margin-left:118px;
+   .gold_coin_info .able_use .user_links.addlink_top {
+   	/*position:absolute;
+ 	left:406px;*/
  	display:inline-block;
 	height: 12px;
 	line-height: 12px;
@@ -82,41 +87,29 @@
 	font-size:12px;
 	font-family: PingFangSC-Regular;
  }
- /*.gold_coin_info .able_use .user_account_links.addlink_top:hover {
- 	color:#FF4040;
- }*/
-.gold_coin_info .able_use .user_account_links {
+  /*修改的部分*/
+.gold_coin_info .able_use .user_links {
 	display:inline-block;
 	height: 12px;
 	line-height: 12px;
-	margin-top:12px;
+	margin-top:9px;
 	padding:4px 4px 4px 4px;
 	border-radius:100px;
 	background-color:#f2eef5;
 	color:#7e6c9e;
 	font-size:12px;
-	margin-left:295px;
 
 }
-.gold_coin_info .able_use .addlinks {
-	display:inline-block;
-	height: 12px;
-	line-height: 12px;
-	margin-top:12px;
-	padding:4px 4px 4px 4px;
-	border-radius:100px;
-	background-color:#f2eef5;
-	color:#7e6c9e;
-	font-size:12px;
-	margin-left:95px;
-
-}
-.gold_coin_info .able_use .addlinks{
+/*修改的样式*/
+.gold_coin_info .able_use .user_links.addlinks{
 	color:#FF4040;
 	background-color:#FFEEEE;
 	font-family: PingFangSC-Regular;
+	/*position:absolute;
+	left:384px;
+	top:16px;*/
 }
-.user_account_links i {
+.user_links i {
 	font-size:12px;
 	margin-left:-5px;
 }
@@ -220,6 +213,51 @@
 	font-size:16px;
 	text-align:center;
 }
+ /*修改样式*/
+ .bignum .num {
+ 	width:172px;
+ 	height: 50px;
+ 	display:flex;
+ 	justify-content:center;
+ 	align-items:center;
+ }
+ .bignum{
+ 	float: left;
+ }
+ .change_btn{
+ 	float: left;
+ 	margin-left: -12px;
+ }
+/*金币商城和金币兑换按钮的修改地方*/
+/*.change_btn {
+	display:none;
+}*/
+ 
+.change_btn_v {
+	display:none;
+    text-align: right;
+    width: 100px;
+    height: 50px;
+    float:left;
+    margin-left: -12px;
+}
+.change_con {
+    width: 100px;
+    height: 50px;
+    /* position: relative; */
+    text-align: right;
+}
+ 
 
-
-
+.gold_coin_info .able_use .change_btn_v .mood_change {
+	display: inline-block;
+    height: 12px;
+    line-height: 12px;
+    padding: 4px 4px 4px 4px;
+    margin-top:12px;
+    border-radius: 100px;
+    background-color: #f2eef5;
+    color: #7e6c9e;
+    font-size: 12px;
+    font-family: PingFangSC-Regular;
+}

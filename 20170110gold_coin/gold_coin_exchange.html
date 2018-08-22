@@ -22,7 +22,7 @@
 				<div class="wrap exchange">
 					<a class="exchange_rule" href="javascript:;">兑换规则</a>
 				    <em></em>
-				    <a class="exchange_record" href="javascript:;">兑换记录</a>
+				    <a class="exchange_record" href="main_entrance.html">兑换记录</a>
 		        </div>
 			</div>
 			<div class="mpc_coin_con">
@@ -43,13 +43,13 @@
 					</div>
 				</div>
 				<div class="exceed_coin_num none">
-					<a href="javascript:;" class="iconfont icon-iconfontgantanhao"></a>
+					<a href="javascript:;" class="coin-iconfont icon-iconfontgantanhao"></a>
 					<span>超过可兑换的额度金币数</span>
 				</div>
 				<div class="input_two_text">
 					<span>请输入187****5670手机号收到的验证码</span>
 				</div>
-				<div class="input_wrap_two clearfix">
+				<!-- <div class="input_wrap_two clearfix">
 					<div class="input_two">
 						<input type="text" placeholder="请输入手机验证码" name="tel_num" />
 					</div>
@@ -59,17 +59,103 @@
 					<a class="identify_code_text_remind" href="javascript:;">
 						<span>收不到验证码？</span>
 					</a>
-				</div>
-				<a class="sure_to_exchange_btn" href="javascript:;">
+				</div> -->
+			<div class="input_check">
+				<div class="input_check_text clearfix">
+					<div class="input_check_mobile">
+						<input type="text" placeholder="请输入手机验证码" class="phonecode" />
+					</div>
+					
+					<div class="get_account">
+					      <div class="getcode" id="num"> 获取验证码</div>
+				    </div>
+				    <a href="javascript:;" class="check">收不到验证码？</a>
+
+				    <div class="check_account clearfix">
+				      <div class="check_three">
+				    	 <div class="error_check">
+				    		<div class="check_work work" >
+				    			<i class="icon coin-iconfont icon-warning warn" style="display:none"></i>
+				    		    <a href="javascript:;" class="yzm rest"></a>
+				    		</div>
+				    		<div class="check_work" style="display:none" >
+				    			<i class="icon coin-iconfont icon-warning"></i>
+				    		    <a href="javascript:;" class="yzm">验证码不能为空</a>
+				    		</div>
+				    		<div class="check_work" style="display: none" >
+				    			<i class="icon coin-iconfont icon-warning"></i>
+				    		    <a href="javascript:;" class="yzm">操作频繁，明日再试</a>
+				    		</div>
+				    		
+				    	  </div>
+				     
+                      </div>
+				    </div>
+		        </div> 		
+			</div>
+			    <a class="sure_to_exchange_btn" href="javascript:;">
 					<span>确定兑换</span>
 				</a>
+	        </div>
+</div>
+<div class="pop-common">
+  <div class="pop-common-dialog gift_get_fail">
+  	<a href="" class="pop_close dialog-main-close">
+		<i class="icon coin-iconfont icon-guanbi close"></i>
+	</a>
+	<div class="pop-keytips-relbox">
+		<div class="pop-key-notice-txt">
+			<div class="title">
+				<div class="check_success">
+					<p>请输入图形中的验证码</p> 
+				</div>
+				<div class="input_code clearfix">
+					<div class="second">
+						<input type="text" placeholder="请输入验证码"  class="request_input" />
+					</div>
+					<div class="input_pic">
+						<img src="images/check_pic.png" alt="换图" />
+					</div>
+					<a href="javascript:;" class="change">换一张</a>
+				</div>
+				<div class="checkError" >
+				   <i class="icon coin-iconfont icon-warning wrong_coin"></i>
+				    <a href="javascript:;" class="yzm">验证码错误</a>
+				</div>
+				<div class="check_sure">
+					<a class="sure">确定</a>
+				</div>
+				
+			</div>
+		</div>
+		 
+
+	</div>
+ </div>
+</div>
+<div class="pop-common-s">
+  <div class="pop-common-dialog-s gift_get_fail-s">
+	<div class="pop-keytips-relbox-s">
+		<a href="javascript:;" class="pop_close dialog-main-close-s">
+			<i class="icon coin-iconfont icon-guanbi close-s"></i>
+		</a>
+		<div class="pop-key-notice-txt-s">
+			<div class="title">
+				<span>
+					 请联系京东客服
+				</span>
+				<span class="kefu">XXX-XXXX-XX</span>
 			</div>
 		</div>
 	</div>
+ </div>
+</div>
+				
+</div>
 	<!--弹框1：成功兑换-->
 	<div class="pop_wrap_suc">
 		<div class="pop_box_suc none">
-		<em class="close icon-guanbi iconfont"></em>
+		<em class="close icon-guanbi coin-iconfont"></em>
 		<div class="pop_suc_title clearfix">
 		    <img class="suc_exchange" src="images/success_to_exchange.png"></img>
 			<span>兑换成功</span>
@@ -91,7 +177,7 @@
 	<!--弹框2：兑换失败-->
 	<div class="pop_wrap_fail">
 		<div class="pop_box_fail none">
-		<em class="close_2 icon-guanbi iconfont"></em>
+		<em class="close_2 icon-guanbi coin-iconfont"></em>
 		<div class="pop_fail_title clearfix">
 		    <img class="fail_exchange" src="images/fail_to_exchange.png"></img>
 			<span>兑换失败</span>
@@ -110,7 +196,7 @@
 	<!--弹窗3：收不到验证码-->
 	<div class="no_code_wrap">
 		<div class="pop_box_no_code none">
-		<em class="close_3 icon-guanbi iconfont"></em>
+		<em class="close_3 icon-guanbi coin-iconfont"></em>
 		<div class="pop_no_code_title">
 			<span>请联系1号店的客服</span>
 		</div>
@@ -123,7 +209,7 @@
 	<!--弹窗4：兑换规则-->
 	<div class="exchange_rule_wrap">
 		<div class="pop_box_exchange_rule none">
-		<em class="close_4 icon-guanbi iconfont"></em>
+		<em class="close_4 icon-guanbi coin-iconfont"></em>
 		<div class="state_inner_wrap">
 			<div class="pop_exchange_rule_title">
 			<span>兑换规则</span>
@@ -166,7 +252,20 @@
 	<div class="mask_tcdiv_2 none"></div>
 	<div class="mask_tcdiv_3 none"></div>
 	<div class="mask_tcdiv_4 none"></div>
+	<div class="popup_mask pop_out"></div>
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="js/gold_coin_exchange.js"></script>
+	<script>
+    	var hei=Math.max(document.body.scrollHeight,document.documentElement.scrollHeight); 
+    	$('.mask_tcdiv_1').css('height',hei);
+    	var hei=Math.max(document.body.scrollHeight,document.documentElement.scrollHeight); 
+    	$('.mask_tcdiv_2').css('height',hei);
+    	var hei=Math.max(document.body.scrollHeight,document.documentElement.scrollHeight); 
+    	$('.mask_tcdiv_3').css('height',hei);
+    	var hei=Math.max(document.body.scrollHeight,document.documentElement.scrollHeight); 
+    	$('.mask_tcdiv_4').css('height',hei);
+    	var hei=Math.max(document.body.scrollHeight,document.documentElement.scrollHeight); 
+    	$('.mask_tcdiv').css('height',hei);
+    </script>
 </body>
 </html>

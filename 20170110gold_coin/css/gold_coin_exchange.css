@@ -90,9 +90,12 @@ body{
 	line-height: 20px;
 	
 }
+.exchange_record:hover{
+	color: #666;
+}
 .mpc_coin_con{
-	width: 424px;
-	height:328px;
+	width: 428px;
+	height:428px;
 	margin: 0 auto;
 }
 .mpc_coin_con .input_one_text{
@@ -300,6 +303,145 @@ body{
 	padding: 8px 27px;
 
 }
+/*新的验证码*/
+.input_check {
+    margin:0 auto;
+}
+
+.input_check .input_check_text {
+    margin:0 auto;
+}
+ 
+.input_check_text .input_check_mobile {
+	float:left;
+}
+.input_check_text .input_check_mobile input::placeholder{
+	color: #999;
+}
+
+ .input_check .input_check_text .input_check_mobile input {
+	padding:18px 67px 18px 17px;
+	width:112px;
+	height: 14px;
+	font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333;
+    line-height: 14px;
+    border: 1px solid #CFCFCF;
+    border-radius: 2px;
+    margin-top:17px;
+    /*margin-left: 785px;*/
+    outline:none;
+
+}
+.input_check .input_check_text .get_account {
+	margin-left:8px;
+	width:126px;
+	height: 51px;
+	background: #57565F;
+    border: 1px solid #CFCFCF;
+    border-radius: 2px;
+    float: left;
+    margin-top:17px;
+
+}
+.input_check .input_check_text .get_account .getcode{
+
+	display:block;
+	/*width:70px;
+	height: 14px;
+	padding:18px 28px;*/
+	font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align:center;
+}
+.input_check .check {
+	width:84px;
+	height: 12px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #3A77FD;
+    line-height: 12px;
+    display:block;
+    margin-top:55px;
+    float: left;
+    margin-left:10px;
+}
+.content_button { 
+    
+    width:110px;
+    height: 36px;
+    margin:0 auto;
+    
+     
+}
+.content_button .check_now {
+	 
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    width:56px;
+    height: 20px;
+    padding:8px 27px;
+    display:block;
+    margin-top:62px;
+    background: #E7E7E7;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+     
+}
+.seconds {
+    pointer-events:none;
+    border-radius: 2px;
+    display:block;
+    text-align:center;
+    height:17px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999999;  
+    margin:0 auto;
+    margin-top:16px;
+
+}
+.account_again {
+    /*width:84px;*/
+    height: 17px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+   padding:18px 21px 16px 21px;
+    display:block;   
+    background: #57565F;
+ /*   border: 1px solid #CFCFCF;*/
+    border-radius: 2px; 
+
+}
+.account_again:hover {
+    color:#fff;
+}
+.check_new {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding:8px 27px;
+    display:block;
+    width:56px;
+    height:20px;
+   /* background: #FF5C4D;*/
+   background:rgb(255,92,77);
+    border: 1px solid #FF4143;
+    border-radius: 2px;
+    margin-top:62px;
+}
+.check_new:hover {
+    background:rgb(251,58,41);
+}
+.check_new:click {
+    background:rgb(241,41,24);
+}
+
 /*弹窗1失败*/
 .pop_wrap_fail{
 	position: absolute;
@@ -669,3 +811,494 @@ body{
 	z-index: 600;
 	background-color: rgba(0,0,0,.6);
 }
+
+
+
+
+
+
+
+/*弹窗*/
+.pop-common {
+	display:none;
+    position: absolute;
+	top:50%;
+	left: 50%;
+}
+.gift_get_fail {
+    position: relative;
+	width: 429px;
+	height: 249px;
+	z-index: 1101;
+	display: block;
+	border: 5px solid #c8c8c8;
+	border-radius: 2px;
+	display:block;
+	left:-221.5px;
+	top:-133px;
+	background-color: #fff;
+}
+.pop-common-dialog {
+    z-index:10001;
+}
+/*.pop-keytips-relbox {
+    position:relative;
+    width:100%;
+    height: 100%;
+    overflow:hidden;
+}*/
+.dialog-main-close .iconfont{
+    position: absolute;
+    top:0;
+    right: 0;
+	width: 18px;
+	height: 20px;
+	color: #979797;
+	padding: 10px;
+}
+/*.dialog-main-close .iconfont {
+    font-size:16px;
+    display: block;
+}*/
+.close:hover {
+   color:#545454 ;
+}
+.closes:hover {
+   color:#545454 ;
+}
+.close-s:hover {
+   color:#545454 ;
+}
+
+.pop-key-notice-txt {
+    margin-top:29px;
+}
+ 
+.pop-key-notice-txt .title {
+    overflow: hidden;
+    margin: 0 auto;
+    font-family: PingFangSC-Regular;
+    /*line-height: 24px;*/
+    /*background: #FFFFFF;
+    border: 1px solid #B4B4B4;*/
+     
+}
+ .pop-key-notice-txt .title .check_success{
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #212121;
+    line-height: 24px;
+ }
+ .pop-key-notice-txt .title .check_fail{
+    margin:0 auto;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #212121;
+    line-height: 24px;
+    margin-left:-28px;
+ }
+ .pop-key-notice-txt .title .check_fail span{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 13px;
+    color: #999;
+ }
+ .pop-key-notice-txt .title .check_fail p {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+ }
+ .pop-key-notice-txt .title .check_success p {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+ }
+.pop-key-notice-txt .title .input_code {
+    margin-top:28px;
+    margin-left: 62px;
+}
+ .pop-key-notice-txt .title .input_code .second{
+    float:left;
+    border-radius:2px;
+    background: #F9F9F9;
+    border:1px solid #F9F9F9;
+ }
+ .pop-key-notice-txt .title .input_code .second input {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333;
+    padding:14px 52px 14px 13px;
+    width:101px;
+    height: 22px;
+    border:0 none;
+    border-radius:2px;
+    background: #F9F9F9;
+    outline:none;
+     
+}
+.pop-key-notice-txt .title .input_code .second input::placeholder{
+	color: #bdbdbd;
+}
+ .pop-key-notice-txt .title .input_code .input_pic {
+    float:left;
+ }
+ .pop-key-notice-txt .title .input_code .input_pic img {
+    display:block;
+    margin-left:8px;
+    margin-right:5px;
+    width:101px;
+    height: 50px;
+ }
+ .pop-key-notice-txt .title .input_code .change {
+    width:42px;
+    height: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #3A77FD;
+    text-align: center;
+    float:left;
+    margin-top:15px;
+
+ }
+
+ 
+ .gift_get_fail .title .check_sure {
+     margin-top:29.3px;
+ }
+.gift_get_fail .title .sure{
+   display:block; 
+   position: absolute;
+   width:28px;
+   height:20px;
+   padding:8px 41px;
+   bottom: 48px;
+   right: 37.3%;
+   font-family: PingFangSC-Regular;
+   font-size: 14px;
+   color: #FFFFFF;
+   background:rgb(255,92,77);
+   border: 1px solid #FF4143;
+   border-radius: 2px;
+   margin:0 auto;
+}
+.gift_get_fail .title .sure:hover {
+    background:rgb(251,58,41);
+}
+.gift_get_fail .title .sure:click {
+    background:rgb(241,41,24);
+}
+.gift_get_fail .title  .iconfont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #b89457;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 54px;
+}
+.popup_mask {
+	display: none;
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10000;
+	background-color: rgba(0,0,0,.6);
+}
+/*弹窗2*/
+.pop-commons {
+    position:relative;
+}
+.pop-commons_fail {
+    position:relative;
+}
+.gift_get_fails {
+    width:349px;
+}
+.pop-common-dialogs {
+    display:none;
+    position:absolute;
+    top:-190px;
+    left:49.75%;
+    z-index:10001;
+   margin-left:-169px;
+}
+.pop-keytips-relboxs {
+    position:relative;
+    width:100%;
+    height: 100%;
+    overflow:hidden;
+}
+.dialog-main-closes {
+    display:block;
+    position:absolute;
+    width:11.9px;
+    height:12px;
+    right:13.6px;
+    top:14.7px;
+    cursor:pointer;
+    text-align:center;
+    color:#979797;
+    
+}
+.dialog-main-closes .iconfont {
+    font-size:16px;
+}
+.pop-key-notice-txts {
+    background: #FFFFFF;
+    border: 1px solid #B4B4B4;
+    margin:6px 6px 6px 5px;
+    
+}
+ 
+.pop-key-notice-txts .title {
+    width: 276px;
+    height: 128px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding:38px 21px 30px 41px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+   /* border: 1px solid #979797;*/
+    color: #212121;
+    line-height: 24px;
+
+     
+}
+.gift_get_fails .title span {
+    
+    display: inline-block;
+    position: relative;
+     
+}
+.gift_get_fails .title .check_success{
+    font-size:18px;
+    margin:0 auto;
+    margin-top:-15px;
+}
+.gift_get_fails .title .check_success p{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom:4px;
+} 
+.gift_get_fails .title .check_success span {
+    font-size:16px;
+}
+
+.gift_get_fails .title .check_fail{
+    font-size:18px;
+    margin:0 auto;
+    margin-top:-15px;
+    text-align: center;
+}
+.gift_get_fails .title .check_fail p{
+    margin-top:22.3px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+} 
+.gift_get_fails .title .check_fail span {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 13px;
+    color: #999;
+}
+
+.gift_get_fails .title a {
+    display:block;
+    margin-top:20px;
+    margin-left:74px;
+}
+.gift_get_fails .title .sures_fail{
+   display:block; 
+   /*line-height: 18px;*/
+   width:28px;
+   height:20px;
+   padding:8px 41px;
+   font-family: PingFangSC-Regular;
+   font-size: 14px;
+   color: #FFFFFF;
+   background:rgb(255,92,77);
+   border: 1px solid #FF4143;
+   border-radius: 2px;
+   margin-top:41px;
+}
+.gift_get_fails .title .sures{
+   display:block; 
+   /*line-height: 18px;*/
+   width:28px;
+   height:20px;
+   padding:8px 41px;
+   font-family: PingFangSC-Regular;
+   font-size: 14px;
+   color: #FFFFFF;
+   background:rgb(255,92,77);
+   border: 1px solid #FF4143;
+   border-radius: 2px;
+}
+.gift_get_fails .title .sures:hover {
+    background:rgb(251,58,41);
+}
+.gift_get_fails .title .sures:click {
+    background:rgb(241,41,24);
+}
+.gift_get_fails .title  .iconfont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #b89457;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 54px;
+}
+  
+/*弹窗3*/
+.pop-common-s {
+	display: none;
+	position: absolute;
+	top:50%;
+	left: 50%;
+}
+.gift_get_fail-s {
+    display: block;
+	width: 338px;
+	height:148px;
+	border: 5px solid #c8c8c8;
+	z-index: 1101;
+	position: absolute;
+	left:-169px;
+	top:-74px;
+	background-color: #fff;
+}
+.pop-common-dialog-s {
+    z-index:10001;
+}
+/*.pop-keytips-relbox-s {
+    position:relative;
+    width:100%;
+    height: 100%;
+    overflow:hidden;
+}*/
+.dialog-main-close-s {
+    display:block;
+    position:absolute;
+    width:11.9px;
+    height:12px;
+    right:13.6px;
+    top:14.7px;
+    cursor:pointer;
+    text-align:center;
+    color:#979797;
+     
+}
+.dialog-main-close-s .iconfont {
+    font-size:16px;
+}
+/*.pop-key-notice-txt-s {
+    margin:5px 6px 4px 5px;
+    
+}*/
+ 
+.pop-key-notice-txt-s .title {
+    width: 126px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding:49px 106px;
+    color: #333;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    text-align: center;
+    
+    
+}
+.gift_get_fail-s .title span {
+    
+    display: inline-block;
+    position: relative;
+     
+}
+.gift_get_fail-s .title .kefu{
+   display:block;
+   font-family: PingFangSC-Regular;
+   font-size: 15px;
+   color: #3A77FD;
+   line-height: 18px;
+   width:105px;
+   height: 18px;
+   margin-top:7px;
+   margin-left: auto;
+   margin-right: auto;
+  /* padding-left:5px;
+   padding-right: 12px;*/
+}
+.gift_get_fail-s .title  .iconfont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #b89457;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 54px;
+}
+
+/*报错弹框*/
+.check_account .error_check{
+    float:left;
+    position: absolute;
+    top:74px;
+}
+.check_account .error_check .check_work {
+    margin-top:3px;
+}
+.check_account .error_check .check_work i {
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #FF5C4D;
+}
+.check_account .error_check .check_work .yzm{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FF5C4D;
+    margin-left:3px;
+    display:inline-block;
+}
+.check_account .check_three {
+    position:relative;
+}
+.none{
+    display: none;
+}
+/*验证码错误部分增加的内容*/
+.checkError {
+    margin-top:6px;
+    font-family: PingFangSC-Regular;
+   /* font-size: 15px;*/
+    color: #FF5C4D;
+    display: none;
+    margin-left: 62px;
+}
+.checkError .yzm {
+    font-size: 12px;
+    color: #FF5C4D;
+    margin-left:1px;
+    display:inline-block;
+}
+.wrong_coin {
+    font-size:15px;
+}
+.pop-key-notice-txt .title .input_code .show_input {
+    border:1px solid #FF5C4D;
+}
+
+
+
+
+
+
+
