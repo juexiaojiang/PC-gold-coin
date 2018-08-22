@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>4_一号金币</title>
+	<link href="css/base.css" rel="stylesheet" type="text/css" />
+	<link href="iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+	<link href="css/jd_account_already_bind.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body class=" ">
+	<script>
+    var isNarrowscreen = screen.width;
+    if(isNarrowscreen < 1228){
+        $("body").attr("class", "w980");
+    }
+
+    function resize(){
+        var windowW = $(window).width();
+        if(windowW < 1228){
+            $("body").attr("class", "w980");
+        }else{
+            $("body").attr("class", "");
+        }
+    }
+    resize();
+    $(window).resize(function(event) {
+        resize();
+    });
+</script>
+<!-- 一号金币 -->
+<div class="hd_header_wrap"></div>
+<div class="mpc_cont">
+	<div class="mpc_content">
+		<div class="content_pic">
+			<img src="images/Bitmap.png" alt="bitmap" />
+		</div>
+		<div class="content_text">
+			<div class="content_hd">
+				<div class="content_hd_name">
+					该京东账号已被绑定
+				</div>
+				<div class="content_text_con">
+					<span class="content_text_para">抱歉！通过您的1号店绑定的手机号（手机号：123***8123）匹配的京东账号已被其他1号店账号绑定，如有疑问，请联系客服：</span>
+					<span class="tel">400-111-1111</span>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>

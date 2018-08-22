@@ -1,0 +1,671 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+	letter-spacing: 0;
+}
+body{
+	position: relative;
+	height: 100vh;
+}
+.big_container{
+	height: 181px;
+	background-color: gray;
+	/*border-bottom: 2px solid red;*/
+}
+.container{
+	position: relative;
+	background-color: #fff;
+}
+.wrap{
+	width: 1228px;
+    margin: 0 auto;
+}
+.mpc_cont{
+	display: block;
+	padding: 0 0 0 0;
+	background-color: #fff;
+}
+.mpc_coin_title{
+	height: 138px;
+	width: 100%;
+	background-color: #f6f6f6;
+	content: '';
+	display: table;
+}
+.icon_change{
+	width: 196px;
+	margin: 40.5px auto 40px auto;
+}
+.icon_change img{
+	width: 100%;
+	height: 100%;
+}
+.exchange_wrap{
+	float: right;
+	width: 153px;
+	height: 29px;
+	background-color: #f6f6f6;
+	border: 1px solid #f6f6f6;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+	margin-top:13px;
+	text-align: center;
+}
+.exchange{
+	width: 129px;
+	height: 20px;
+	display: block;
+	float: right;
+	margin: 5px 12px 12px 4px;
+}
+.exchange .exchange_rule {
+	width: 56px;
+	height: 20px;
+	float: left;
+	color: #999;
+	font-size: 14px;
+	line-height: 20px;
+}
+.exchange_rule:hover{
+	color: #666;
+}
+.exchange em{
+	display: block;
+	float: left;
+	width: 1px;
+	height: 14px;
+	line-height: 20px;
+	background-color: #2a2a2a;
+	margin: 3px 8px;
+}
+.exchange .exchange_record{
+	width: 56px;
+	height: 20px;
+	float: right;
+	color: #999;
+	font-size: 14px;
+	line-height: 20px;
+	
+}
+.mpc_coin_con{
+	width: 424px;
+	height:328px;
+	margin: 0 auto;
+}
+.mpc_coin_con .input_one_text{
+	margin-top:36px;
+}
+.mpc_coin_con .input_one_text .have_coins_to_change{
+	display: block;
+	height: 20px;
+	color: #333;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 4px;
+}
+.mpc_coin_con .input_one_text .coins_to_change_remind{
+	display:block;
+	height: 17px;
+	font-size: 12px;
+	line-height: 17px;
+	color: #999;
+}
+.exceed_coin_num{
+	width: 154px;
+	height: 17px;
+	display: block;
+	margin: 7px 178px 16px 6px;
+	line-height: 17px;
+}
+.exceed_coin_num a{
+	display: block;
+	float: left;
+	width: 11px;
+	height: 11px;
+	margin-left: 3px;
+	margin-right: 6px;
+	font-size: 12px;
+	color: #ff5c4d;
+}
+.exceed_coin_num span{
+	display: block;
+	float: left;
+	color: #ff5c4d;
+	font-size: 12px;
+}
+.input_wrap_one{
+	position: relative;
+	width: 330px;
+	height: 48px;
+	border: 1px solid #cfcfcf;
+	border-radius: 2px;
+	margin-top:10px;
+}
+.input_wrap_one.change_border{
+	border: 1px solid #ff5c4d;
+}
+.input_wrap_one .input_one{
+	float: left;
+	width: 112px;
+	height: 20px;
+	margin: 15px 0 15px 17px;
+}
+.input_wrap_one .input_one input{
+	border: none;
+	outline: none;
+	line-height: 20px;
+	font-size: 14px;
+}
+.input_wrap_one .input_one input::placeholder{
+	display: block;
+	width: 112px;
+	height: 20px;
+	color: #999;
+	font-size: 14px;
+	
+}
+.right{
+	float: right;
+	display: block;
+	width: 198px;
+	height: 100%;
+}
+.right em{
+	float: left;
+	display: block;
+	width: 1px;
+	height: 25px;
+	margin: 12px 10px 12px 70px;
+	background-color:#979797;
+}
+.right .danwei{
+	display: block;
+	float: right;
+	width: 110px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 14px;
+	color: #333;
+}
+.right .danwei .danwei-exchange{
+	height: 48px;
+	line-height: 48px;
+	display: block;
+	float: right;
+	margin-right: 16px;
+}
+.right .danwei span.blank{
+	height: 100%;
+	overflow: hidden;
+	width: 66px;
+	float: left;
+	font-size: 14px;
+}
+.input_two_text{
+	width: 257px
+	height:20px;
+	margin-top:12px;
+}
+.input_two_text span{
+	color: #333;
+	font-size: 14px;
+	line-height: 20px;
+}
+.input_wrap_two{
+	margin-top:10px;
+	width: 426px;
+	height: 50px;
+}
+.input_wrap_two .input_two{
+	float: left;
+	width: 196px;
+	height: 48px;
+	border: 1px solid #cfcfcf;
+	border-radius: 2px;
+}
+.input_wrap_two .input_two input{
+	display: block;
+	border: none;
+	outline: none;
+	margin: 15px 0 15px 17px;
+	line-height: 20px;
+}
+.input_wrap_two .input_two input::placeholder{
+	display: block;
+	width: 112px;
+	height: 20px;
+	color: #999;
+	font-size: 14px;
+
+}
+.input_wrap_two .identify_code_btn{
+	float: left;
+	width: 124px;
+	height:50px;
+	margin-left: 8px;
+	background-color: #57565f;
+	border-radius: 2px;
+}
+.input_wrap_two .identify_code_btn span{
+	display: block;
+	width: 70px;
+	height: 20px;
+	margin: 15px 28px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+}
+.input_wrap_two .identify_code_text_remind{
+	float: left;
+	display: block;
+	width: 84px;
+	height: 17px;
+	margin: 33px 0 0 10px;
+}
+.input_wrap_two .identify_code_text_remind span{
+	display: block;
+	width: 84px;
+	height: 17px;
+	color: #3a77fd;
+	font-size: 12px;
+	line-height: 17px;
+
+}
+.sure_to_exchange_btn{
+	display: block;
+	width: 110px;
+	height: 36px;
+	background-color: #ff5c4d;
+	border: 1px solid #ff4143;
+	border-radius: 2px;
+    margin: 63px 0 0 110px;
+    line-height: 20px;
+    text-align: center;
+}
+.sure_to_exchange_btn:hover{
+	background-color: #fb3a29;
+}
+.sure_to_exchange_btn:click{
+	background-color: rgb(241,41,24);
+}
+.sure_to_exchange_btn span{
+	display: block;
+	width: 56px;
+	height: 20px
+	font-size:12px;
+	color: #fff;
+	padding: 8px 27px;
+
+}
+/*弹窗1失败*/
+.pop_wrap_fail{
+	position: absolute;
+	top:50%;
+	left: 50%;
+}
+.pop_box_fail{
+	position: relative;
+	width: 338px;
+	height: 196px;
+	z-index: 1101;
+	display: block;
+	position: absolute;
+	border: 5px solid #c8c8c8;
+	display:block;
+	left:-169px;
+	top:-98px;
+	background-color: #fff;
+
+}
+.pop_fail_title{
+	display: block;
+	width: 118px;
+	height: 28px;
+	margin: 28px 114px 0 115px;
+	line-height: 28px;
+}
+.fail_exchange{
+	float: left;
+	display: block;
+	width: 28px;
+	height: 28px;
+	font-size: 28px;
+	line-height: 28px;
+	margin-right: 8px;
+}
+.pop_fail_title span{
+	display: block;
+	float: left;
+	color: #333;
+	font-size: 18px;
+}
+.pop_fail_con{
+	width: 180px;
+	height: 25px;
+	display: block;
+	line-height: 25px;
+	margin: 24px 78px 0 80px;
+}
+.pop_fail_con span{
+	font-size: 18px;
+	color: #333;
+}
+.pop_fail_btn{
+	width: 110px;
+	height: 36px;
+	margin: 26px 114px 30px 114px;
+	background-color: #ff5c4d;
+	border: 1px solid #ff4143;
+	border-radius: 2px;
+	text-align: center;
+	content: '';
+	display: table;
+}
+.pop_fail_btn:hover{
+	background-color: #fb3a29;
+}
+.pop_fail_btn:click{
+	background-color: rgb(241,41,24);
+}
+.pop_fail_btn .fail_btn{
+	display: block;
+	width:28px;
+	height: 20px;
+	line-height: 20px;
+	margin: 8px 41px;
+}
+.pop_fail_btn .fail_btn span{
+	display: block;
+	font-size: 14px;
+	color: #fff;
+}
+/*弹窗2成功*/
+.pop_wrap_suc{
+	position: absolute;
+	top:50%;
+	left: 50%;
+}
+.pop_box_suc{
+	position: relative;
+	width: 338px;
+	height: 196px;
+	z-index: 1101;
+	display: block;
+	position: absolute;
+	border: 5px solid #b4b4b4;
+	display:block;
+	left:-169px;
+	top:-98px;
+	background-color: #fff;
+
+}
+.pop_suc_title{
+	display: block;
+	width: 118px;
+	height: 28px;
+	margin: 28px 114px 0 115px;
+	line-height: 28px;
+}
+.suc_exchange{
+	float: left;
+	display: block;
+	width: 28px;
+	height: 28px;
+	font-size: 28px;
+	line-height: 28px;
+	margin-right: 8px;
+}
+.pop_suc_title span{
+	display: block;
+	float: left;
+	color: #333;
+	font-size: 18px;
+}
+.pop_suc_con{
+	width: 188px;
+	height: 25px;
+	display: block;
+	line-height: 25px;
+	margin: 15px 77px 0 77px;
+}
+.pop_suc_con .suc_text_1{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	color: #333;
+}
+.pop_suc_con2{
+	width: 187px;
+	height: 17px;
+	display: block;
+	line-height: 17px;
+	margin: 3px 77px 0 77px;
+	color: #999;
+}
+.pop_suc_con .suc_text_2{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;	
+}
+.pop_suc_btn{
+	width: 134px;
+	height: 36px;
+	margin: 15px 102px 30px 102px;
+	background-color: #ff5c4d;
+	border: 1px solid #ff4143;
+	border-radius: 2px;
+	text-align: center;
+	content: '';
+	display: table;
+}
+.pop_suc_btn:hover{
+	background-color: #fb3a29;
+}
+.pop_suc_btn:click{
+	background-color: rgb(241,41,24);
+}
+.pop_suc_btn .suc_btn{
+	display: block;
+	width:84px;
+	height: 20px;
+	line-height: 20px;
+	margin: 8px 25px;
+}
+.pop_suc_btn .suc_btn span{
+	display: block;
+	font-size: 14px;
+	color: #fff;
+}
+.close{
+	display: block;
+	float: right;
+	width: 18px;
+	height: 20px;
+	color: #979797;
+	padding: 10px;
+}
+.close:hover{
+	color: rgb(85,85,85);
+}
+.close_2{
+	display: block;
+	float: right;
+	width: 18px;
+	height: 20px;
+	color: #979797;
+	padding: 10px;
+}
+.close_2:hover{
+	color: rgb(85,85,85);
+}
+/*弹窗3：收不到验证码*/
+.no_code_wrap{
+	position: absolute;
+	top:50%;
+	left: 50%;
+}
+.pop_box_no_code{
+	display: block;
+	width: 338px;
+	height:148px;
+	border: 5px solid #c8c8c8;
+	z-index: 1101;
+	position: absolute;
+	left:-169px;
+	top:-74px;
+	background-color: #fff;
+}
+.close_3{
+	display: block;
+	float: right;
+	width: 18px;
+	height: 20px;
+	color: #979797;
+	padding: 10px;
+}
+.close_3:hover{
+	color: rgb(85,85,85);
+}
+.pop_no_code_title{
+	width: 155px;
+	height: 25px;
+	margin: 49px 93px 7px 93px;
+	line-height: 25px;
+}
+.pop_no_code_title span{
+	font-size: 18px;
+	color: #333;
+}
+.pop_no_code_con{
+	width: 108px;
+	height: 18px;
+	margin: 7px 115px 0 115px;
+}
+.pop_no_code_con span{
+	font-size: 18px;
+	color: #3a77fd;
+}
+/*弹窗4--兑换规则*/
+.exchange_rule_wrap{
+	position: absolute;
+	display: block;
+	top:50%;
+	left: 50%;
+}
+.pop_box_exchange_rule{
+	position: absolute;
+	width: 710px;
+	height: 580px;
+	z-index: 1101;
+	display: block;
+	border: 5px solid #c8c8c8;
+	border-radius: 2px;
+	display:block;
+	left:-355px;
+	top:-290px;
+	background-color: #fff;
+}
+.state_inner_wrap{
+	display: block;
+	width: 635px;
+	height: 542px;
+	margin: 23px 46px 15px 29px;
+}
+.state_inner_wrap:before{
+	content: '';
+	display: table;
+}
+.state_inner_wrap .pop_exchange_rule_title{
+	display: block;
+	margin: 24px auto 0 auto;
+	text-align: center;
+	height: 18px;
+	line-height: 18px;
+}
+.pop_exchange_rule_title span{
+	font-size: 18px;
+	color: #212121;
+
+}
+.pop_exchange_rule_con{
+	margin: 26px 13px 0px 24px;
+	width: 600px;
+	height: 357px;
+	overflow-y: scroll;
+	
+}
+.pop_exchange_rule_con p{
+	font-size: 12px;
+	color: #666;
+	line-height: 24px;
+
+}
+.pop_exchange_rule_con p:child(1){
+	font-size: 12px;
+	color: #666;
+	line-height: 17px;
+
+}
+.close_4{
+	display: block;
+	float: right;
+	width: 18px;
+	height: 20px;
+	color: #979797;
+	padding: 10px;
+}
+.close_4:hover{
+	color: rgb(85,85,85);
+}
+.none{
+	display: none;
+}
+.mask_tcdiv{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 600;
+	background-color: rgba(0,0,0,.6);
+}
+.mask_tcdiv_2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 600;
+	background-color: rgba(0,0,0,.6);
+}
+.mask_tcdiv_3{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 600;
+	background-color: rgba(0,0,0,.6);
+}
+.mask_tcdiv_4{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 600;
+	background-color: rgba(0,0,0,.6);
+}

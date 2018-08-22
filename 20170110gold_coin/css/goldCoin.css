@@ -1,0 +1,581 @@
+
+/*
+ *@Description:1号金币 css
+ *@Author: zhangqian7
+ *@Update: zhangqian7(17-01-10)
+ */
+
+.gold_coin_wrap{
+    margin-top: 10px;
+    background-color: #fafafa;
+}
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+/*左边导航部分*/
+.leftBox {
+    float: left;
+    width: 195px;
+    overflow: hidden;
+}
+.leftList {
+    background-color: #fcfcff;
+    overflow: hidden;
+    width: 193px;
+    border: 1px solid #e7e7e7;
+}
+.leftList .title {
+    width: 100%;
+    height: 55px;
+    background: #fff;
+    border-bottom: 1px solid #fd6d37;
+    position: relative;
+}
+.leftList .title .iconMy {
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    left: 22px;
+    top: 22px;
+    _line-height: 0;
+    _font-size: 0;
+    background: url(../images/icon_myyhd_index_24.png) no-repeat 0 0;
+    _background: url(../images/icon_myyhd_index_8.png) no-repeat 0 0;
+}
+.leftList .title strong {
+    position: absolute;
+    left: 47px;
+    top: 19px;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+}
+.leftList .hoverDown strong a{color:#999;}
+.leftBox .leftList .email_icon {
+    position: relative;
+    width: 15px;
+    height: 11px;
+    background: url(../images/icon_myyhd_index_24.png) no-repeat -257px -2px;
+    position: absolute;
+    right: 20px;
+    top: 26px;
+}
+.leftBox .leftList .title .email_icon i {
+    position: absolute;
+    top: -10px;
+    right: -18px;
+    background: #ff3c3c;
+    border: #f22323 1px solid;
+    width: 22px;
+    height: 13px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+}
+.leftList .on {
+    background-color: #fd6d37;
+}
+.leftList .on .email_icon {
+    background: url(../images/icon_myyhd_index_24.png) no-repeat -275px -2px;
+    width: 15px;
+    height: 11px;
+}
+.leftList .on .iconMy {
+    background: url(../images/icon_myyhd_index_24.png) no-repeat -20px 0;
+    _background: url(../images/icon_myyhd_index_8.png) no-repeat -20px 0;
+}
+.leftList .on strong a {
+    color: #ffffff;
+}
+.leftList .titleContent { width:100%;height:100%;}
+.leftList .subtitle {width:100%;height:35px;line-height:35px; position:relative;}
+.leftList .subtitle:hover .iconArrow{ -moz-transform: rotate(360deg);-o-transform: rotate(360deg);transform: rotate(360deg); -webkit-transform:rotate(360deg);}
+.leftList .subtitle span{ position:absolute; left:46px;}
+.leftList .subtitle a{ color:#666;width:100%; height:100%;display:block;}
+.leftList .subtitle .iconDian{ _line-height:0;_font-size:0;width:4px; height:4px;background-color:#fd6d37;display:block;position:absolute; left:23px;top:15px;}
+.leftList .subtitle .upDown{ position: absolute; top: 10px; left: 155px; width: 16px; height: 16px;}
+.leftList .subtitle .iconArrow{ display: block; width:9px;height:5px;-webkit-transition:.2s ease; -moz-transition:.2s ease; -o-transition:.2s ease; transition:.2s ease; _line-height:0; _font-size:0; background:url(../images/icon_myyhd_index_24.png) no-repeat -74px -4px; _background:url(../images/icon_myyhd_index_8.png) no-repeat -74px -4px;margin-top: 7px; margin-left: 3px; -webkit-transition:.5s ease; -moz-transition:.5s ease;-o-transition:.5s ease; transition:.5s ease;}
+.leftList .subtitle .iconArrowR{/*background: url(../images/icon_myyhd_index_24.png) no-repeat -104px -2px; _background: url(../images/icon_myyhd_index_8.png) no-repeat -104px -2px;*/ -webkit-transition:.5s ease;-moz-transform:rotate(180deg);-moz-transition:.5s ease;-webkit-transform:rotate(180deg); -o-transform:rotate(180deg);-o-transition:.5s ease; transform:rotate(180deg);transition:.5s ease;}
+.leftList .tradeCenter{ width:100%;}
+.leftList .tradeCenter .liTab li{ position:relative; width:100%; height:28px;line-height:28px;}
+.leftList .tradeCenter .liTab li a{ display:block; overflow:hidden; white-space:nowrap; width:147px; padding-left:47px; height:28px; line-height:28px; color:#999; vertical-align:middle;}
+.leftList .tradeCenter .liTab li a em{ color:#fd6d37;}
+.leftList .tradeCenter .liTab li a:hover em {
+    color: #fff;
+}
+.leftList .tradeCenter .liTab li a span {
+    display: inline-block;
+    width: 29px;
+    height: 12px;
+    background: url(../images/icon_progress_24.png) no-repeat 0 -67px;
+    _background: url(../images/icon_progress_8.png) no-repeat 0 -67px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.leftList .tradeCenter .liTab li a:hover {
+    background-color: #fd6d37;
+    color: white;
+}
+.leftList .tradeCenter .hideLiTab {
+    display: none;
+}
+
+
+
+
+
+.user_account_links{
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 20px;
+    padding: 0 8px 0 10px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    background-color: #f2eef5;
+    color: #7e6c9e;
+    font-size: 12px;
+    margin-left: 16px;
+}
+.user_account_links i{
+    font-size: 12px;
+}
+
+
+/*1号金币*/
+.gold_coin {
+    width: 986px;
+    margin: 0 auto;
+}
+
+/*title*/
+.gold_coin_title {
+    height: 44px;
+}
+.gold_coin_title h3 {
+    float: left;
+    height: 38px;
+    font-family: "microsoft yahei";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 38px;
+}
+.gold_coin_title a {
+    float: right;
+    margin: 22px 0 0 20px;
+}
+
+/*account information*/
+.gold_account_info {
+    height: 48px;
+    border: 1px solid #ddd;
+    background-color: #fff8e4;
+    font-family: "microsoft yahei";
+    color: #333;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+}
+.g_num{
+    margin: 0 4px;
+    color: #fd6d37;
+    font: 20px 'Tahoma';
+}
+.gold_account_info .once_exchange{
+    display: inline-block;
+    width: 78px;
+    height: 28px;
+    margin: 0 20px;
+    border-radius: 2px;
+    background-color: #fd6d37;
+    color: #fff;
+    font-family: "simsun";
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+}
+
+/*gold information*/
+.gold_coin_info{
+    height: 50px;
+    margin-top: 10px;
+    padding: 15px 0;
+    background: url("../images/coinBg.jpg") no-repeat 0 0;
+    color: #333;
+    font-family: "microsoft yahei";
+    font-size: 18px;
+    line-height: 50px;
+}
+.gold_coin_info .able_use{
+    float: left;
+    width: 50%;
+    border-right: 1px solid #ddd;
+}
+.gold_coin_info span{
+    padding-left: 80px;
+}
+.gold_coin_info .num{
+    padding-left: 30px;
+    font-family: "Tahoma";
+    font-size: 32px;
+    font-weight: bold;
+}
+.gold_coin_info .able_use span{
+    float: left;
+    padding-left: 70px;
+}
+.gold_coin_info .able_use .num{
+    float: left;
+    padding-left: 90px;
+}
+.gold_coin_info .able_use .shop_mall_btn{
+    float: right;
+    padding: 0 5px;
+    margin-top: 14px;
+    margin-right: 10px;
+    border: 1px #fd6d37 solid;
+    border-radius: 20px;
+    color: #fd6d37;
+    font: 12px/20px 'simsun';
+}
+.gold_coin_info .able_use .shop_mall_btn:hover{
+    background-color: #ffe8e0;
+    color: #fd6d37;
+}
+/*coin bill*/
+.gold_coin_bill .bill_title{
+    height: 35px;
+    padding-top: 32px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.bill_title .title{
+    float: left;
+    margin-bottom: 1px;
+    color: #333;
+    font-family: "microsoft yahei";
+}
+.bill_title .title a{
+    position: relative;
+    float: left;
+    height: 35px;
+    margin-right: 30px;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 14px;
+    line-height: 35px;
+}
+.bill_title .title a:hover{
+    color: #fd6d37;
+}
+.bill_title .title i{
+    display: none;
+    position: absolute;
+    top: 26px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    overflow: hidden;
+    font-size: 0;
+    border: 5px solid transparent;
+    _border-style: dashed;
+    border-bottom-style: solid;
+    border-bottom-color: #fd6d37;
+}
+.bill_title .title .cur{
+    height: 34px;
+    border-bottom: 2px solid #fd6d37;
+    color: #fd6d37;
+    line-height: 34px;
+}
+.bill_title .title .cur i{
+    display: block;
+}
+.bill_title .time{
+    float: right;
+    line-height: 35px;
+}
+.bill_title .time a{
+    display: inline-block;
+    margin-left: 22px;
+    color: #333;
+}
+.bill_title .time a:hover{
+    color: #333;
+    font-weight: bold;
+}
+.bill_title .time .cur{
+    font-weight: bold;
+}
+
+.bill_classify{
+    display: none;
+    padding-top: 10px;
+}
+.bill_classify .type{
+    float: left;
+    height: 24px;
+    margin-right: 10px;
+    padding: 0 15px;
+    border-radius: 13px;
+    border: 1px solid #e7e7e7;
+    background-color: #f4f4f4;
+    color: #666;
+    line-height: 24px;
+}
+.bill_classify .type:hover{
+    border: 1px solid #fd6d37;
+}
+.bill_classify .cur{
+    border: 1px solid #fd6d37;
+    background-color: #fd6d37;
+    color: #fff;
+}
+.bill_table{
+    padding-top: 15px;
+}
+.bill_table table{
+    border-collapse: collapse;
+    border: 0 none;
+}
+.bill_table th{
+    height: 40px;
+    background-color: #eee;
+}
+.bill_table td{
+    height: 54px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #fff;
+    text-align: center;
+}
+.bill_table .change{
+    color: #ff3c3c;
+    font-family: "Tahoma";
+    font-size: 24px;
+}
+.bill_table .reduce{
+    color: #333;
+}
+.bill_table .order_info{
+    padding: 5px 0 5px 40px;
+    color: #333;
+    text-align: left;
+    line-height: 44px;
+}
+.bill_table .order_info .txt{
+    width: 350px;
+    height: 20px;
+    padding-top: 4px;
+    overflow: hidden;
+    color: #333;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.bill_table .order_info .num{
+    height: 20px;
+    overflow: hidden;
+    line-height: 20px;
+    color: #999;
+}
+.bill_empty{
+    padding-bottom: 100px;
+}
+.bill_empty .icon{
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 90px auto 25px;
+    background: url("../images/goldCoin_sprit.png") no-repeat 0 0;
+    _background: url("../images/goldCoin_sprit8.png") no-repeat 0 0;
+}
+.bill_empty .tips{
+    color: #999;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    text-align: center;
+}
+
+/*分页-20170302-S*/
+.bill_page{
+    height: 26px;
+    padding: 30px 20px;
+    color: #666;
+}
+.bill_page a{
+    float: left;
+    width:  24px;
+    height: 24px;
+    margin-left: 5px;
+    border:1px solid #c8c7cc;
+    background-color: #fff;
+    text-align: center;
+    line-height: 24px;
+}
+.bill_page .cur{
+    border: 1px solid #ff3c3c;
+    color: #ff3c3c;
+    font-weight: bold;
+}
+.bill_page .prev,
+.bill_page .next{
+    width: 43px;
+    position: relative;
+}
+.bill_page .prev{
+    padding-left: 10px;
+}
+.bill_page .next{
+    padding-right: 10px;
+}
+.bill_page a .arrow{
+    position: absolute;
+    top: 8px;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    border: 4px solid transparent;
+}
+.bill_page .prev .arrow{
+    left: 2px;
+    border-right-color: #333;
+}
+.bill_page .next .arrow{
+    right: 2px;
+    border-left-color: #333;
+}
+.bill_page .un_click{
+    border: 1px solid #c8c7cc;
+    background-color: #efeff4;
+    color: #ccc;
+}
+.bill_page .prev.un_click .arrow{
+    border-right-color: #ccc;
+}
+.bill_page .next.un_click .arrow{
+    border-left-color: #ccc;
+}
+.bill_page .unclick:hover{
+    color: #ccc;
+}
+.bill_page span{
+    float: left;
+    padding-left: 5px;
+    line-height: 26px;
+}
+.bill_page input{
+    float: left;
+    width: 30px;
+    height: 14px;
+    margin: 2px 0 0 5px;
+    padding: 3px 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    line-height: 14px;
+    text-align: center;
+}
+.bill_page .sure_btn{
+    width: 38px;
+    height: 18px;
+    margin: 3px 0 0 5px;
+    border: 1px solid #ccc;
+    color: #333;
+    background-color: #e8e8e8;
+    line-height: 18px;
+}
+/*分页-20170302-E*/
+
+
+
+/*兑换成功提示框*/
+.box_show{
+    position: relative;
+    border: 6px solid #c8c8c8;
+}
+.box_show .close_icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background: url("../images/goldCoin_sprit.png") no-repeat -122px 0;
+    _background: url("../images/goldCoin_sprit8.png") no-repeat -122px 0;
+    cursor: pointer;
+}
+.box_show .cont{
+    border: 1px solid #b0b0b0;
+    background-color: #fff;
+}
+.box_show .btn{
+    text-align: center;
+}
+.box_show .btn a{
+    display: inline-block;
+    width: 108px;
+    height:33px;
+    margin: 0 5px;
+    border: 1px solid #ff4143;
+    background-color: #ff5c4d;
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+}
+.box_show .btn .cancel{
+    border: 1px solid #e5e5e5;
+    background-color: #fcfcfc;
+    color: #666;
+}
+.change_success,
+.change_fail{
+    width: 226px;
+}
+.change_success .cont,
+.change_fail .cont{
+    position: relative;
+}
+.change_success .cont i,
+.change_fail .cont i{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 30px;
+    height: 30px;
+    background: url("../images/goldCoin_sprit.png") no-repeat -70px 0;
+    _background: url("../images/goldCoin_sprit8.png") no-repeat -70px 0;
+}
+.change_fail .cont i{
+    background: url("../images/goldCoin_sprit.png") no-repeat -70px -39px;
+    _background: url("../images/goldCoin_sprit8.png") no-repeat -70px -39px;
+}
+.change_success .cont p,
+.change_fail .cont p{
+    padding-left: 98px;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: left;
+}
+
+/*确认兑换提示框*/
+.affirm_exchange,
+.name_authentication{
+    width: 368px;
+}
+.affirm_exchange .cont,
+.name_authentication .cont{
+    padding: 40px 10px;
+}
+.affirm_exchange .cont .tips,
+.name_authentication .cont .tips{
+    height: 94px;
+    color: #333;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 94px;
+}

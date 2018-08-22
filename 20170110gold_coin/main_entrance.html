@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>gold_icon_shop一号金币</title>
+	<link href="css/base.css" rel="stylesheet" type="text/css" />
+	<link href="iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+	<link href="css/main_entrance.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body class="">
+	<script>
+    var isNarrowscreen = screen.width;
+    if(isNarrowscreen < 1228){
+        $("body").attr("class", "w980");
+    }
+
+    function resize(){
+        var windowW = $(window).width();
+        if(windowW < 1228){
+            $("body").attr("class", "w980");
+        }else{
+            $("body").attr("class", "");
+        }
+    }
+    resize();
+    $(window).resize(function(event) {
+        resize();
+    });
+</script>
+   <!-- 一号金币 -->
+	<div class="hd_header_wrap"></div>
+	<div class="mpc_cont">
+		<div class="wrap clearfix">
+			<div class="mpc_cont_sideNav"></div>
+			<div class="mpc_cont_main">
+				<div class="gold_coin">
+					<div class="gold_coin_title clearfix">
+						<h3>1号金币</h3>
+						<a href="http://cms.yhd.com/cms/view.do?topicId=18" class="blue_link">金币规则</a>
+					</div>
+					<div class="gold_coin_info clearfix">
+						<div class="able_use clearfix">
+							<span>可用1号金币</span>
+							<span class="num">8</span>
+							<a href="//coin.yhd.com" target="_blank" class="user_account_links addlink_top">
+								金币商城
+								<i class="icon iconfont icon-arrow-right"></i>
+							</a>
+							<a href="gold_coin_new.html" class="addlinks">
+								金币兑换京豆
+								<i class="icon iconfont icon-arrow-right"></i>
+							</a> 
+						</div>
+						<div class="unable_use">
+							<span>2018-12-31 过期1号金币</span>
+							<span class="num">0</span>
+						</div>
+					</div>
+					<input type="hidden" name="type" value="1" />
+					<input type="hidden" name="balanceType" value="0" />
+					<!-- coin bill -->
+					<div class="gold_coin_bill">
+						<div class="bill_title clearfix">
+							<div class="title clearfix">
+								<a href="javascript:;" class="cur">
+									金币明细
+									<i></i>
+								</a>
+								 <a href="javascript:;">
+								 	金币获取
+								 	<i></i>
+								 </a>
+								 <a href="javascript:;">
+								 	金币消费
+								 	<i></i>
+								 </a>
+							</div>
+							<div class="time">
+								<a href="javascript:;" class="cur">当前金币明细</a>
+								<a href="javascript:;">历史金币明细</a>
+							</div>
+						</div>
+						<div class="bill_empty">
+							<p class="icon"></p>
+							<p class="tips">暂无金币变化</p>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+</body>
+</html>
